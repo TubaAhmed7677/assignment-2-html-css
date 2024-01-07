@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css/">
+    <style>
+        body {
+            background-color: rgba(7, 30, 113, 0.869);
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+        }
+
+
+        .form {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            left: 35%;}
+            a{
+                color: white;
+            }
+    </style>
+</head>
+
+
+<body>
+    <link rel="stylesheet" href="./style.css/">
+
+
+    <div class="registration form">
+
+        <h1 align="center"> Registration Form</h1>
+
+        <strong><p align="center">Please fill out this form with required information</p></strong>
+
+
+        <form>
+            <label for="name">Enter your First Name:</label><br>
+            <input type="text" size="50"> <br>
+            <label for="name">Enter Your Last Name:</label> <br>
+            <input type="text" size="50"> <br>
+            <label for="email">Enter Your Email:</label> <br>
+            <input type="email" name="email" id="email" size="50"> <br>
+            <label for="password">Create a New Password</label> <br>
+            <input type="password" size="50"> <br>
+            <hr> <br>
+            <input type="radio" name="account" id="personal" value="personal">
+            <label for="radio">Personal Account</label> <br>
+            <input type="radio" name="account" id="business" value="business">
+            <label for="radio">Business Account</label> <br>
+            <input type="checkbox" name="I accept the" id="checkbox">
+            <label for="checkbox">I accept the <a href="./TermsandCondition.html">Terms and conditions</a></label> <br>
+            <br>
+            <hr>
+            <label for="file">Upload a Profile Picture:</label> <br>
+            <input type="file" multiple="image/*"> <br>
+            <label for="age">Input Your Age(Years):</label> <br>
+            <input type="age" name="number" id="number" size="50"> <br>
+            <label for="option value">How Did You Hear About Us:</label>  <br>
+            <select name="Hear about us" id="">
+                <option value="choose one">(Select One)</option>
+                <option value="Freind">Freind</option>
+                <option value="Fmaily">Family</option>
+                <option value="Templete">Templete</option>
+                <option value="Social Media">Social Media</option>
+                <option value="News">News</option>
+            </select> <br>
+            <label for="bio">Provide a Bio</label> <br>
+            <input type="text" placeholder="I like coding....." size="50"> <br> <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
